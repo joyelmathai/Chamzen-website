@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chamzen Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    #hero {
+      text-align: center;
+      background: #eee;
+      padding: 3rem 2rem;
+      border-radius: 8px;
+    }
+
+    #services ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    #services li {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #7d2ae8;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    @media (max-width: 600px) {
+      header, main, footer {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chamzen Services</h1>
+    <p>Creative Website Design for Modern Businesses</p>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2>We Build Websites That Work</h2>
+      <p>Professional, mobile-optimized, and fast-loading websites for small businesses, startups, and personal brands.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>✔️ Custom Website Design</li>
+        <li>✔️ SEO-Optimized Pages</li>
+        <li>✔️ Mobile Responsiveness</li>
+        <li>✔️ Fast Delivery</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@chamzen.com">info@chamzen.com</a></p>
+      <p>Phone: +49 123 456789</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chamzen Services. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
